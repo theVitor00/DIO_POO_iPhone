@@ -1,33 +1,3 @@
-# DIO_POO_iPhone
-
 # Desafio POO iPhone
 
----
-title: iPhone
----
-
-classDiagram
-    class ReprodutorMusical {
-    +tocar()
-    +pausar()
-    +selecionarMusica(String nome)
-    }
-    
-    class AparelhoTelefonico {
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-    }
-    
-    class NavegadorInternet {
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina
-    }
-    
-    class iPhone {
-    }
-    
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+[![](https://mermaid.ink/img/pako:eNqNksFuwjAQRH8l8imo5AdyqITaSw9FqFQ9-bIkS1jV2Y02NmpB_HvdJJSUcMCnzWQ0fvb4aAop0eQmyzLLnrzDPKHVThgtd5rlwkHbPhNUCrXlJK5OSd6wUSmDF30NLRXgkmP_-3c9eClA09lIaSC0V1KLDgsShiEiXXslrhKWGke-02W8TD3EogFFt5P3mLQVpkLGFN0mjqq47Tk51Kgyu7KARy7xH1unUwwk0CdRRZIPOaT3US1hjxWUoi_sURn9BAq_aEO6gor479RB3QSspP5-lrKHxQbSKXkARwc4R93H1zc8hrppHmxZ9jgt-6Zr2sZN2-R6LJu5icXUQGV8jB2XNX6HNVqTx7EE_bTG8in6IFKsv7kwudeAc6MSqp3Jt-Da-BWaMrY5PNdBPf0AYHjcDQ?type=png)](https://mermaid.live/edit#pako:eNqNksFuwjAQRH8l8imo5AdyqITaSw9FqFQ9-bIkS1jV2Y02NmpB_HvdJJSUcMCnzWQ0fvb4aAop0eQmyzLLnrzDPKHVThgtd5rlwkHbPhNUCrXlJK5OSd6wUSmDF30NLRXgkmP_-3c9eClA09lIaSC0V1KLDgsShiEiXXslrhKWGke-02W8TD3EogFFt5P3mLQVpkLGFN0mjqq47Tk51Kgyu7KARy7xH1unUwwk0CdRRZIPOaT3US1hjxWUoi_sURn9BAq_aEO6gor479RB3QSspP5-lrKHxQbSKXkARwc4R93H1zc8hrppHmxZ9jgt-6Zr2sZN2-R6LJu5icXUQGV8jB2XNX6HNVqTx7EE_bTG8in6IFKsv7kwudeAc6MSqp3Jt-Da-BWaMrY5PNdBPf0AYHjcDQ)
